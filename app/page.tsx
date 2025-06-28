@@ -273,7 +273,7 @@ export default function BirthdayLanding() {
       </audio>
 
       {/* Botón troll flotante */}
-      {showTrollButton && (
+      {currentScreen === "riddles" && showTrollButton && showTrollButton && (
         <motion.button
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
